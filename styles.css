@@ -16,7 +16,7 @@ body{font-family: 'Raleway', sans-serif;
 }
 /*Menu*/
 nav {
-  background: #8fb1c7;
+  background: #c0d5e4;
   padding: 3px 15px;
 }
 .menu a {
@@ -238,15 +238,15 @@ p{
 /*Separador*/
 .separador {
   position: relative;
-  background: #8fb1c7;;
-  height: 50vh;
+  background: #c0d5e4;
+  height: 30vh;
 }
 
 .wave {
   position: absolute;
   height: 168px;
   width: 100%;
-  background: #8fb1c7;
+  background: #c0d5e4;
   bottom: 0;
 }
 
@@ -260,7 +260,7 @@ p{
 .wave::before {
   width: 55%;
   height: 100%;
-  background-color: #8fb1c7;
+  background-color: #c0d5e4;;
   right: -1.5%;
   top: 40%;
 }
