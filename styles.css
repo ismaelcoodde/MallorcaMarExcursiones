@@ -7,6 +7,7 @@ margin: 0;
 }
 body{
   font-family: 'Raleway', sans-serif;
+  
 }
 
 /**/
@@ -233,20 +234,26 @@ p{
 @media (max-width: 500px){
     h1{
         font-size: 20px;
+        letter-spacing: 13px;
+        text-transform: uppercase;
     }
 }
 
 /*Separador*/
+
+
+
+
 .separador {
   position: relative;
   background: #c0d5e4;
-  height: 30vh;
+  height: 5vh;
 }
 
 .wave {
   position: absolute;
-  height: 130px;
-  width: 90%;
+  height: 50px;
+  width: 100%;
   background: #c0d5e4;
   bottom: 0;
 }
@@ -255,21 +262,27 @@ p{
   content: "";
   display: block;
   position: absolute;
-  border-radius: 50% 100%;
+  border-radius: 100% 50%;
 }
 
 .wave::before {
   width: 55%;
-  height: 100%;
-  background-color: #c0d5e4;;
+  height: 109%;
+  background-color: #ffffff;
   right: -1.5%;
-  top: 40%;
+  top: 60%;
 }
 .wave::after {
   width: 55%;
-  height: 109%;
-  background-color: #fff;
+  height: 100%;
+  background-color: #c0d5e4;
   left: -1.5%;
-  top: 60%;
+  top: 40%;
 }
-
+h1, p{
+  color: black;
+  text-align: center;
+}
+.entrada{
+  margin-top: 40px;
+}
