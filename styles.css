@@ -15,6 +15,13 @@ body{
 .txtblanco{
   color: white;
 }
+.txt-white{
+  color: white;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+
 
 /**/
 .contenedor{
@@ -22,9 +29,10 @@ body{
   margin: 0 auto;
   width: 95%;
 }
+
 /*Menu*/
 nav {
-  background: #00394a;
+  background: #043962;
   padding: 3px 15px;
 }
 .menu a {
@@ -40,7 +48,7 @@ nav {
   padding: 7.5px 10px 7.5px 0;
 }
 .logo img{
-  width: 70px;
+  width: 80px;
 }
 
 .item {
@@ -253,7 +261,7 @@ p{
 
 .separador {
   position: relative;
-  background: #00394a;
+  background: #043962;
   height: 5vh;
 }
 
@@ -261,7 +269,7 @@ p{
   position: absolute;
   height: 50px;
   width: 100%;
-  background: #00394a;
+  background: #043962;
   bottom: 0;
 }
 
@@ -282,7 +290,7 @@ p{
 .wave::after {
   width: 55%;
   height: 100%;
-  background-color: #00394a;
+  background-color: #043962;
   left: -1.5%;
   top: 40%;
 }
@@ -320,7 +328,7 @@ h1, p{
 /*Info barco*/
 
 .info-barco{
-  background-color: #00394a;
+  background-color: #043962;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -331,9 +339,11 @@ h1, p{
 }
 .info-barco .caracteristicas{
   padding: 15px;
+  margin-top: 30px;
 }
 .info-barco .diametros{
   padding: 15px;
+  margin-top: 30px;
 }
 .info-barco .caracteristicas p{
   font-size: 18px;
@@ -352,7 +362,7 @@ h3{
   letter-spacing: 3px;
 }
 .equipos{
-  background-color: #00394a;
+  background-color: #043962;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -381,7 +391,7 @@ h3{
 }
 /*footer*/
 .footer{
-  background-color: #00394a;
+  background-color: #043962;
   font-size: 20px;
   padding: 20px 0;
 }
