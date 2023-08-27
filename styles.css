@@ -300,11 +300,18 @@ h1, p{
   align-items: center;
 }
 .entrada h3{
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
   font-weight: 500;
   margin:20px;
 }
 .entrada p{
   font-size: 17px;
+  line-height: 30px;
+}
+
+/*Fotos*/
+
+.entrada-imagenes{
+  margin: 40px auto;
 }
