@@ -24,7 +24,7 @@ body{
 }
 /*Menu*/
 nav {
-  background: #c0d5e4;
+  background: #00394a;
   padding: 3px 15px;
 }
 .menu a {
@@ -253,7 +253,7 @@ p{
 
 .separador {
   position: relative;
-  background: #c0d5e4;
+  background: #00394a;
   height: 5vh;
 }
 
@@ -261,7 +261,7 @@ p{
   position: absolute;
   height: 50px;
   width: 100%;
-  background: #c0d5e4;
+  background: #00394a;
   bottom: 0;
 }
 
@@ -282,7 +282,7 @@ p{
 .wave::after {
   width: 55%;
   height: 100%;
-  background-color: #c0d5e4;
+  background-color: #00394a;
   left: -1.5%;
   top: 40%;
 }
@@ -320,7 +320,7 @@ h1, p{
 /*Info barco*/
 
 .info-barco{
-  background-color: #c0d5e4;
+  background-color: #00394a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -337,23 +337,28 @@ h1, p{
 }
 .info-barco .caracteristicas p{
   font-size: 18px;
+  color: white;
 }
 .info-barco .diametros p{
   font-size: 20px;
   font-weight: 400;
+  margin-bottom: 15px;
+  color: white;
 }
 h3{
   font-size: 26px;
   text-align: center;
   margin: 40px auto;
+  letter-spacing: 3px;
 }
 .equipos{
-  background-color: #c0d5e4;
+  background-color: #00394a;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
+  
 }
 .caja-equipos{
   display: flex;
@@ -367,8 +372,27 @@ h3{
 }
 .caja-equipos p{
   width: 75%;
+  color: white;
 }
 .equipos img{
   width: 35px;
   margin-bottom: 40px;
+ color: white
+}
+/*footer*/
+.footer{
+  background-color: #00394a;
+  font-size: 20px;
+  padding: 20px 0;
+}
+.footer p{
+  color: white;
+}
+/*footer*/
+/*contacto y reservas*/
+.contacto-reservas {
+  padding: 20px;
+}
+.contacto-reservas p{
+  font-size: 20px;
 }
