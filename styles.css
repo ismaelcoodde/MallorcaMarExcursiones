@@ -315,3 +315,60 @@ h1, p{
 .entrada-imagenes{
   margin: 40px auto;
 }
+
+
+/*Info barco*/
+
+.info-barco{
+  background-color: #c0d5e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  gap: 100px;
+
+}
+.info-barco .caracteristicas{
+  padding: 15px;
+}
+.info-barco .diametros{
+  padding: 15px;
+}
+.info-barco .caracteristicas p{
+  font-size: 18px;
+}
+.info-barco .diametros p{
+  font-size: 20px;
+  font-weight: 400;
+}
+h3{
+  font-size: 26px;
+  text-align: center;
+  margin: 40px auto;
+}
+.equipos{
+  background-color: #c0d5e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.caja-equipos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 20px;
+  margin: 1px auto;
+  height: 95px;
+ 
+}
+.caja-equipos p{
+  width: 75%;
+}
+.equipos img{
+  width: 35px;
+  margin-bottom: 40px;
+}
