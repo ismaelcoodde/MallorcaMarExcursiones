@@ -14,11 +14,13 @@ body{
 }
 .txtblanco{
   color: white;
+  
 }
 .txt-white{
   color: white;
   font-size: 19px;
   font-weight: 500;
+  
 }
 ul{
   list-style: none;
@@ -34,11 +36,10 @@ ul{
   
 }
 @media (min-width:768px){
+
   .redes{
     display: none;
   }
-
-
 }
 
 .redes li img{
@@ -148,6 +149,9 @@ nav {
 
 /* Tablet menu */
 @media all and (min-width: 700px) {
+  
+
+  
   .menu {
     justify-content: space-between;
 
