@@ -452,7 +452,7 @@ h3{
 	margin: 20px;
 	border-radius: 6px;
 	overflow: hidden;
-	background:#fff;
+	background-color: #043962;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 	transition: all 400ms ease-out;
 	cursor: default;
@@ -471,21 +471,26 @@ h3{
 }
 .cardd .contenido-cardd h3{
 	margin-bottom: 15px;
-	color: #7a7a7a;
+	color: #F3ED71
 }
 .cardd .contenido-cardd p{
 	line-height: 1.8;
-	color: #6a6a6a;
+	color: #fff;
 	font-size: 14px;
 	margin-bottom: 5px;
 }
+.alq{
+  color: #F3ED71;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
 .cardd .contenido-cardd a{
 	display: inline-block;
-	padding: 10px;
+	padding: 10px 20px;
 	margin-top: 10px;
 	text-decoration: none;
-	color: #2fb4cc;
-	border: 1px solid #2fb4cc;
+	color: white;
+	border: 1px solid #F3ED71;
 	border-radius: 4px;
 	transition: all 400ms ease;
 	margin-bottom: 5px;
@@ -493,6 +498,7 @@ h3{
 .cardd .contenido-cardd a:hover{
 	background: #2fb4cc;
 	color: #fff;
+  border: none;
 }
 @media only screen and (min-width:320px) and (max-width:768px){
 	.container-cardd{
