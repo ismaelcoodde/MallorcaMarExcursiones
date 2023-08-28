@@ -20,6 +20,30 @@ body{
   font-size: 19px;
   font-weight: 500;
 }
+ul{
+  list-style: none;
+  
+}
+.redes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  margin-right: 90px;
+  
+}
+@media (min-width:768px){
+  .redes{
+    display: none;
+  }
+
+
+}
+
+.redes li img{
+ width: 25px;
+}
 
 
 
