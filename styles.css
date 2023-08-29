@@ -37,10 +37,10 @@ ul {
 }
 
 .boton {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 15px;
   border-radius: 5px;
-  color: #fcf9c6;
+  color: #40B6E3;
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 2px;
@@ -48,7 +48,7 @@ ul {
 }
 
 .boton:hover {
-  color: #F3ED71;
+  color: #fff;
 }
 
 .redes {
@@ -85,7 +85,7 @@ ul {
 /*Menu*/
 nav {
   background: #015477;
-  padding: 3px 15px;
+  padding: 1px
 }
 
 .menu a {
@@ -104,7 +104,9 @@ nav {
 }
 
 .logo img {
-  width: 80px;
+  width: 90px;
+  padding-top: 15px;
+  
 }
 
 .item {
@@ -139,7 +141,8 @@ nav {
 
 .toggle {
   order: 1;
-  font-size: 20px;
+  font-size: 25px;
+  margin-top: 20px;
 }
 
 .item.button {
@@ -639,3 +642,5 @@ h3 {
 }
 
 /*Fin-Cards*/
+
+/*Precios*/
