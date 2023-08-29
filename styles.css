@@ -26,6 +26,7 @@ body {
 .txtfooter{
   font-size: 16px;
   color: white;
+  
 }
 
 .txt-white {
@@ -42,17 +43,20 @@ ul {
 
 .boton {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px 15px;
+  padding: 7px 12px;
   border-radius: 5px;
   color: #40B6E3;
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 2px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .boton:hover {
   color: #fff;
+}
+.redes-footer img{
+  width: 25px;
 }
 
 .redes {
@@ -108,7 +112,7 @@ nav {
 }
 
 .logo img {
-  width: 90px;
+  width: 80px;
   padding-top: 15px;
   
 }
@@ -510,7 +514,7 @@ h3 {
 
 /*footer*/
 .footer {
-  background-color: #043962;
+  background-color:#015477;
   font-size: 20px;
   padding: 20px 0;
 
@@ -538,7 +542,7 @@ h3 {
   display: flex;
   max-width: 1100px;
   margin: auto;
-  background-color: #043962;
+  background-color: #ffffff;
 
 }
 
@@ -558,7 +562,7 @@ h3 {
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #015477;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   transition: all 400ms ease-out;
   cursor: default;
