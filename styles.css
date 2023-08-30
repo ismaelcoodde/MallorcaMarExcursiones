@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@100;300;600&family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Ephesis&family=Festive&family=Hurricane&family=La+Belle+Aurore&family=Lavishly+Yours&family=Mr+Dafoe&family=Oooh+Baby&family=Parisienne&family=Qwitcher+Grypen:wght@400;700&family=Zeyada&display=swap');
+
+/*
+FUENTES
+
+font-family: 'Cinzel', serif;
+font-family: 'Ephesis', cursive;
+font-family: 'Festive', cursive;
+font-family: 'Hurricane', cursive;
+font-family: 'La Belle Aurore', cursive;
+font-family: 'Lavishly Yours', cursive;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Oooh Baby', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Zeyada', cursive;
+
+*/
 
 
 
@@ -14,15 +32,33 @@
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #fff;
-  
-
-
-
 
 }
 
-.txtblanco {
+/*
+FUENTES
+
+font-family: 'Cinzel', serif;
+font-family: 'Ephesis', cursive;
+font-family: 'Festive', cursive;
+font-family: 'Hurricane', cursive;
+font-family: 'La Belle Aurore', cursive;
+font-family: 'Lavishly Yours', cursive;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Oooh Baby', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Zeyada', cursive;
+
+*/
+
+.absolute h1{
   color: white;
+  font-size: 22px;
+  font-family: 'Oooh Baby', cursive;
+}
+.absolute p{
+  font-size: 9px;
 }
 .txtfooter{
   font-size: 16px;
@@ -30,12 +66,7 @@ body {
   
 }
 
-.txt-white {
-  color: white;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 2px;
-}
+
 .btn-wsp{
   position: fixed;
   width: 55px;
@@ -363,6 +394,9 @@ h1 {
 p {
   color: white;
 }
+.entrada p{
+  color: black;
+}
 
 .overlay {
   width: 100%;
@@ -371,20 +405,6 @@ p {
   background: rgba(0, 0, 0, 0.3)
 }
 
-@media (max-width: 800px) {
-  h1 {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 500px) {
-  h1 {
-    font-size: 20px;
-    letter-spacing: 13px;
-    line-height: 35px;
-    text-transform: uppercase;
-  }
-}
 
 /*Separador*/
 
@@ -431,7 +451,7 @@ p {
 
 h1,
 p {
-  color: black;
+ 
   text-align: center;
 }
 
@@ -638,11 +658,12 @@ h3 {
   }
 }
 
+
 @media (max-width:768px) {
   .txtmme {
-    font-size: 16px;
-    letter-spacing: 14px;
-    font-weight: 400;
+    
+    
+    font-family: 'Festive', cursive;
   }
 
   .txtmme span {
