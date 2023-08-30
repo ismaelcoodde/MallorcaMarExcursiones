@@ -684,7 +684,7 @@ h3 {
 
 /*Precios*/
 .wrap{
-	width: 90%;
+	width: 100%;
 	max-width: 1170px;
 	margin: 50px auto;
 }
@@ -714,7 +714,7 @@ h3 {
 
 .swicht-btn{
 	position: absolute;
-	background: #0C1F28;
+	background: #0777aa;
 	width: 50%;
 	height: 90%;
 	border-radius: 20px;
@@ -813,12 +813,13 @@ h3 {
 .pricing-table-head.estandar-title h3,
 .pricing-table-head.estandar-title h3 sup,
 .pricing-table-head.estandar-title h3 sub{
-	color: #E97D68;
+	color: #0C1F28;
 }
 
 .pricing-table-list li{
 	background: #F1F3F5;
 	padding: 10px 0;
+  
 }
 
 .pricing-table-list li:nth-child(2n){
@@ -829,17 +830,19 @@ h3 {
 	display: block;
 	width: 100%;
 	padding: 20px 0;
-	background: #0C1F28;
+	background: #015477;
 	color: #fff;
 	margin-top: 23px;
+  text-decoration: none;
 }
 
+
 .pricing-table-button.estandar{
-	background: #E97D68;
+	background: #0C1F28;
 }
 @media screen and (max-width: 750px){
 	.pricing-table{
-		width: 72%;
+		width: 95%;
 		margin-bottom: 20px;
 	}
 
@@ -848,7 +851,7 @@ h3 {
 	}
 
 	.pricing-table:hover{
-		transform: scale(1.0) ;
+		transform: scale(1.1);
 	}
 }
 
@@ -860,4 +863,29 @@ h3 {
 
 /*precios*/
 
+/*galeria*/
+.galeria-grid{
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 8%;
+}
+.galeria{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 30px;
+}
+.galeria img{
+  width: 100%;
+}
+.h2galeria{
+  text-align: center;
+  padding: 40px 0;
+}
+.bg{
+  background-color: #46b5ff;
+}
+/*Galeria*
 
