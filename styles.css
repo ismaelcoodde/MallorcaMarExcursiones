@@ -54,16 +54,22 @@ font-family: 'Zeyada', cursive;
 
 .absolute h1{
   color: white;
-  font-size: 22px;
-  font-family: 'Oooh Baby', cursive;
+  font-size: 40px;
+  font-family: 'Hurricane', cursive;
+  font-weight: 300;
+  
 }
+
 .absolute p{
-  font-size: 9px;
+  font-size: 14px;
 }
 .txtfooter{
   font-size: 16px;
   color: white;
   
+}
+.contacto-reservas p{
+  color: black;
 }
 
 
@@ -98,13 +104,14 @@ ul {
 
 .boton {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 7px 12px;
+  padding: 8px 12px;
   border-radius: 5px;
   color: #40B6E3;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
   font-size: 12px;
+  
 }
 
 .boton:hover {
@@ -625,6 +632,7 @@ h3 {
 .cardd img {
   width: 100%;
   height: 250px;
+  object-fit: cover;
 }
 
 .cardd .contenido-cardd {
